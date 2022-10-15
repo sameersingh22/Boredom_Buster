@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Inspiration";
+  src: local("Inspiration"),
+   url("./fonts/Inspiration/Inspiration-Regular.ttf") format("truetype");
+  
+  }
+
+.searchPage__info {
+    padding: 20px;
+  }
+
+.searchPage__info > p {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: "Inspiration";
+
+}
+
+.searchPage__info > h1 {
+    margin-bottom: 30px;
+}
+
+.searchPage__info > button {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+  }
+  

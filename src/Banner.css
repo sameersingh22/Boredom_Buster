@@ -1,0 +1,56 @@
+.Banner {
+    background: url("https://images.pexels.com/photos/3016353/pexels-photo-3016353.jpeg") center center;
+    height: 50vh;
+    position: relative;
+}
+
+.Banner_description {
+    background-color: black;
+    color: white;
+    padding-top: 17.5vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px
+}
+
+.Banner_description > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.Banner_description > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+
+
+.Banner_description > h5 {
+    margin-top: 10px;
+ 
+}
+
+.Banner_search {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Banner_search > Button {
+    
+    font-weight: 50;
+    font-size: large;
+    text-transform: inherit;
+    color: #ffa600
+}
+
+.Banner_search > Button:hover {
+    background-color: rgb(18, 0, 83);
+    font-weight: 50;
+    font-size: large;
+    text-transform: inherit;
+    color: #ffa600
+}
